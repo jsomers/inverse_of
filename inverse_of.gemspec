@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
     |Record 2.3.0 -- 2.3.5.
   EOS
 
-  s.add_dependency 'activerecord', '< 2.3.6'
+  s.add_dependency 'activerecord', '< 3.0'
   s.add_development_dependency 'ritual'
   s.add_development_dependency 'bundler'
   s.add_development_dependency 'sqlite3-ruby'
